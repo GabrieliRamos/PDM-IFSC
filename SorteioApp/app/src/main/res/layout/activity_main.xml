@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="sorteioNumero"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Entre com o intervalo!"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="70dp" />
+
+    <EditText
+        android:id="@+id/editTextVinicial"
+        android:layout_width="83dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.219"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="110dp" />
+
+    <EditText
+        android:id="@+id/editTextVFinal"
+        android:layout_width="83dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="248dp"
+        tools:layout_editor_absoluteY="110dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sortear"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="197dp" />
+
+    <TextView
+        android:id="@+id/textViewValorSorteado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="................."
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="282dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
